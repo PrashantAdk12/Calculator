@@ -1,0 +1,54 @@
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Thambi+2:wght@700&family=Sofia+Sans:ital,wght@1,300&family=Sora:wght@500&display=swap');
+.heading{
+   display: flex;
+   justify-content: center;
+   font-family: 'Sora', sans-serif;
+
+}
+
+.main-container{
+height: auto;
+width: auto;
+/* background-color: red; */
+/* border: solid black 2px; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+#status-bar{
+background: white;
+height: 35px;
+display: flex;
+justify-content: center;
+padding: 3px;
+}
+.input{
+margin: 0px;
+padding: 0px 11px;
+border: 1px solid black;
+border-radius: 5px;
+width: 300px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+  margin: 25px;
+  left: 33%;
+  right: 33%;
+  position: relative;
+}
+
+.btn{
+    height: 38px;
+    width: 38px;
+    padding: 28px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
